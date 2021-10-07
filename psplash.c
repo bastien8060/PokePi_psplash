@@ -298,18 +298,18 @@ main (int argc, char** argv)
 
   /* Draw the Poky logo  */
   psplash_fb_draw_image (fb, 
-			 (fb->width  - POKY_IMG_WIDTH)/2, 
+			 (fb->width  - POKEPI_IMG_WIDTH)/2, 
 #if PSPLASH_IMG_FULLSCREEN
-			 (fb->height - POKY_IMG_HEIGHT)/2,
+			 (fb->height - POKEPI_IMG_HEIGHT)/2,
 #else
 			 (fb->height * PSPLASH_IMG_SPLIT_NUMERATOR
-			  / PSPLASH_IMG_SPLIT_DENOMINATOR - POKY_IMG_HEIGHT)/2,
+			  / PSPLASH_IMG_SPLIT_DENOMINATOR - POKEPI_IMG_HEIGHT)/2,
 #endif
-			 POKY_IMG_WIDTH,
-			 POKY_IMG_HEIGHT,
-			 POKY_IMG_BYTES_PER_PIXEL,
-			 POKY_IMG_ROWSTRIDE,
-			 POKY_IMG_RLE_PIXEL_DATA);
+			 POKEPI_IMG_WIDTH,
+			 POKEPI_IMG_HEIGHT,
+			 POKEPI_IMG_BYTES_PER_PIXEL,
+			 POKEPI_IMG_ROWSTRIDE,
+			 POKEPI_IMG_RLE_PIXEL_DATA);
 
   /* Draw progress bar border */
   psplash_fb_draw_image (fb, 

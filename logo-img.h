@@ -1,10 +1,10 @@
 /* GdkPixbuf RGBA C-Source image dump 1-byte-run-length-encoded */
 
-#define PokePi_IMG_ROWSTRIDE (1548)
-#define PokePi_IMG_WIDTH (387)
-#define PokePi_IMG_HEIGHT (140)
-#define PokePi_IMG_BYTES_PER_PIXEL (4) /* 3:RGB, 4:RGBA */
-#define PokePi_IMG_RLE_PIXEL_DATA ((uint8*) \
+#define POKEPI_IMG_ROWSTRIDE (1548)
+#define POKEPI_IMG_WIDTH (387)
+#define POKEPI_IMG_HEIGHT (140)
+#define POKEPI_IMG_BYTES_PER_PIXEL (4) /* 3:RGB, 4:RGBA */
+#define POKEPI_IMG_RLE_PIXEL_DATA ((uint8*) \
   "\377\0\0\0\0\310\0\0\0\0\4""2'\226\377\17\5\232\377,,\232\377=3\230\377" \
   "\377\0\0\0\0\377\0\0\0\0\377\0\0\0\0\7""2'\227\377\16\5\232\377\4\3\232" \
   "\377,-\232\377=3\230\377,-\232\377=3\230\377\377\0\0\0\0\377\0\0\0\0" \
