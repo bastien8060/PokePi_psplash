@@ -13,7 +13,7 @@
 #include "psplash.h"
 #include "psplash-config.h"
 #include "psplash-colors.h"
-#include "psplash-poky-img.h"
+#include "logo-img.h"
 #include "psplash-bar-img.h"
 #ifdef HAVE_SYSTEMD
 #include <systemd/sd-daemon.h>
