@@ -136,7 +136,7 @@ psplash_fb_new (int angle, int fbdev_id)
   struct fb_var_screeninfo fb_var;
   struct fb_fix_screeninfo fb_fix;
   int                      off;
-  char                     fbdev[9] = "/dev/fb0";
+  char                     fbdev[9] = "/dev/fb1";
 
   PSplashFB *fb = NULL;
 
